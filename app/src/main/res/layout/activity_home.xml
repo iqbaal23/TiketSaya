@@ -53,16 +53,21 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btn_new_account" />
 
-
-            <ImageView
-                android:id="@+id/imageView4"
+            <com.github.florent37.shapeofview.shapes.CircleView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/icon_nopic"
                 app:layout_constraintBottom_toBottomOf="@+id/view3"
                 app:layout_constraintEnd_toEndOf="@+id/view3"
                 app:layout_constraintStart_toStartOf="@+id/view3"
-                app:layout_constraintTop_toTopOf="@+id/view3" />
+                app:layout_constraintTop_toTopOf="@+id/view3" >
+
+                <ImageView
+                    android:id="@+id/pic_photo_register_user"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/anggaphoto"/>
+            </com.github.florent37.shapeofview.shapes.CircleView>
+
 
             <TextView
                 android:id="@+id/textView4"
