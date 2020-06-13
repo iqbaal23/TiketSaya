@@ -118,14 +118,16 @@
                 android:layout_height="wrap_content">
 
                 <Button
+                    android:id="@+id/btnminus"
                     android:background="@drawable/btnmines"
                     android:layout_width="25dp"
                     android:layout_height="35dp"/>
 
                 <TextView
+                    android:id="@+id/jumlahtiket"
                     android:textColor="@color/blackPrimary"
                     android:fontFamily="@font/mregular"
-                    android:text="2"
+                    android:text="0"
                     android:textSize="18sp"
                     android:layout_marginLeft="12dp"
                     android:layout_marginRight="12dp"
@@ -133,6 +135,8 @@
                     android:layout_height="wrap_content"/>
 
                 <Button
+                    android:layout_marginTop="2dp"
+                    android:id="@+id/btnplus"
                     android:background="@drawable/btnpls"
                     android:layout_width="25dp"
                     android:layout_height="28dp"/>
@@ -192,6 +196,7 @@
                 android:textSize="16sp" />
 
             <TextView
+                android:id="@+id/textmybalance"
                 android:layout_marginLeft="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -224,6 +229,7 @@
                 android:textSize="16sp" />
 
             <TextView
+                android:id="@+id/texttotalharga"
                 android:layout_marginLeft="50dp"
                 android:textAlignment="center"
                 android:layout_width="wrap_content"
@@ -268,5 +274,16 @@
             android:layout_height="28dp"
             android:src="@drawable/ic_back" />
     </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/notice_uang"
+        android:layout_marginTop="48dp"
+        android:layout_marginRight="44dp"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:src="@drawable/icon_tidak_cukup_uang"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
 </android.support.constraint.ConstraintLayout>
