@@ -9,7 +9,7 @@
 
     <ImageView
         android:layout_marginTop="50dp"
-        android:id="@+id/icon_success"
+        android:id="@+id/icon_success_ticket"
         android:layout_width="276dp"
         android:layout_height="320dp"
         android:src="@drawable/icon_success_signup"
@@ -29,7 +29,7 @@
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/icon_success" />
+        app:layout_constraintTop_toBottomOf="@+id/icon_success_ticket" />
 
     <TextView
         android:id="@+id/app_subtitle"

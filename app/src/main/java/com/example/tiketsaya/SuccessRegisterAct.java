@@ -22,7 +22,7 @@ public class SuccessRegisterAct extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_success_register);
 
-        iconSuccess = findViewById(R.id.icon_success);
+        iconSuccess = findViewById(R.id.icon_success_ticket);
         app_title = findViewById(R.id.app_title);
         app_subtitle = findViewById(R.id.app_subtitle);
         btn_explore = findViewById(R.id.btn_explore);
