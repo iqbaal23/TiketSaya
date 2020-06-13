@@ -28,7 +28,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/btn_new_account"
+                android:id="@+id/app_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
@@ -42,7 +42,7 @@
                 app:layout_constraintTop_toTopOf="@+id/view2" />
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/app_subtitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -54,7 +54,7 @@
                 android:textSize="22sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/btn_new_account" />
+                app:layout_constraintTop_toBottomOf="@id/app_title" />
 
 
             <LinearLayout
@@ -70,7 +70,7 @@
                 android:paddingBottom="30dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView3">
+                app:layout_constraintTop_toBottomOf="@+id/app_subtitle">
 
                 <LinearLayout
                     android:layout_marginTop="100dp"

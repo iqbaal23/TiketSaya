@@ -17,7 +17,7 @@ public class SignInAct extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_in);
 
-        btn_new_account = findViewById(R.id.btn_new_account);
+        btn_new_account = findViewById(R.id.app_title);
         btn_sign_in = findViewById(R.id.btn_sign_in);
         btn_new_account.setOnClickListener(new View.OnClickListener() {
             @Override

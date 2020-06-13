@@ -30,7 +30,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/btn_new_account"
+                android:id="@+id/app_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
@@ -51,7 +51,7 @@
                 android:layout_marginTop="24dp"
                 android:background="@drawable/bg_view_circle_picture"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/btn_new_account" />
+                app:layout_constraintTop_toBottomOf="@+id/app_title" />
 
             <com.github.florent37.shapeofview.shapes.CircleView
                 android:id="@+id/btn_to_profile"
@@ -81,7 +81,7 @@
                 android:textColor="#fff"
                 android:textSize="20sp"
                 app:layout_constraintStart_toEndOf="@+id/view3"
-                app:layout_constraintTop_toBottomOf="@+id/btn_new_account" />
+                app:layout_constraintTop_toBottomOf="@+id/app_title" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -105,7 +105,7 @@
                 android:textColor="@color/greenPrimary"
                 android:textSize="24sp"
                 app:layout_constraintEnd_toEndOf="@+id/view2"
-                app:layout_constraintTop_toBottomOf="@+id/btn_new_account" />
+                app:layout_constraintTop_toBottomOf="@+id/app_title" />
 
             <LinearLayout
                 android:id="@+id/linearLayout"
@@ -122,7 +122,7 @@
                 android:paddingBottom="30dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/btn_new_account">
+                app:layout_constraintTop_toBottomOf="@+id/app_title">
 
                 <TextView
                     android:layout_width="wrap_content"
